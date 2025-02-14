@@ -1,0 +1,80 @@
+<html>
+<head>
+  <style>
+    button
+    {
+      background-color: yellow;
+      margin-left: 10px;
+      margin-right: 10px;
+    }
+    button:hover
+    {
+      background-color: green;
+      color: white;
+    }
+    fieldset
+    {
+      width: 420px;
+      height: 180px;
+      background-color: #FFE0B5;
+    }
+    body
+    {
+      background: #F0A6CA;
+    }
+    .outerbox
+    {
+      background-color: #F3F9D2;
+      width: 470px;
+      height: 780px;
+      box-shadow: 0px 0px 7px;
+      border-radius: 20px;
+    }
+    .outerbox:hover
+    {
+      box-shadow: 0px 0px 16px;
+    }
+    
+  </style>
+<title>Form</title>
+</head>
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTKa-5uMmi5pXQIn6Lo8uw9vm5VMKPR2krAng&s" alt="NIT W" align="left" height="150"/>
+<body style="font-weight: bold; font-size: medium; font-family:'Times New Roman';">
+  <center>
+<h1 align="center"><font color="royal blue"><br/><u>REGISTRATION  FORM</u></font></h1><br/><br/><hr/>
+<marquee><i><b><h2>Enter User details...</h2></b></i></marquee><hr/>
+<p><pre><br/>
+<form class="outerbox">
+  <br/>
+First name: <input type="text" name="First_name" placeholder="First name here"><br/>
+Last name: <input type="text" name="Last_name" placeholder="Last name here"><br/>
+Gender: <input type="radio" name="gender" value="male">Male<input type="radio" name="gender" value="female">Female<br/><br/>
+Suject of interest:
+<select>
+<Option value="Physics">Physics</option>
+<option value="Chemistry">Chemistry</option>
+<option value="Maths">Maths</option>
+<option value="English">English</option>
+<option value="Biology">Biology</option>
+</select><br/>
+Language known:<br/><input type="checkbox" name="Engish">English
+<input type="checkbox" name="Hindi">Hindi
+<input type="checkbox" name="Marathi">Marathi
+<input type="checkbox" name="Bengali">Bengali
+<input type="checkbox" name="Punjabi">Punjabi
+<input type="checkbox" name="Bhojpuri">Bhojpuri
+<input type="checkbox" name="Telugu">Telugu<br/><br/>
+Date of birth:<input type="date" name="dob" value="dd-mm-yyyy" ><br/><br/>
+Contact no.:<input type="text" name="cont" value="+91"><br/><br/>
+<fieldset><legend><b>Address:</b></legend>
+  District:<input type="text" name="district"><br/>
+  Pin code:<input type="text" name="pin_code"><br/>
+  State:<input type="text" name="state"><br/>
+  Country:<input type="text" name="country"><br/>
+</fieldset>
+<button>Reset</buton><button>Submit</button>
+</form>
+</pre></p>
+</center>
+</body>
+</html>
